@@ -1,0 +1,158 @@
+body {
+  background-image: url("../imgs/image_2.jpg");
+  font-family: 'Nunito', sans-serif;
+}
+label {
+  margin-left: 2.5%;
+  margin-top: auto;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+#Myform {
+  display: none;
+  border-radius: 6px;
+  margin-left: 10%;
+  background-color: rgb(223, 223, 223);
+  box-shadow: 5px 5px 5px 5px #888;
+  width: 80%;
+  height: 300px;
+}
+#MIN,
+#MAX {
+  color: black;
+  font-weight: bold;
+  border-color: darkgrey;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  border-style: solid;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 20px;
+  box-shadow: slategrey;
+}
+#CB {
+  margin-left: 2.5%;
+  width: 95%;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: brown;
+  margin-top: 19px;
+}
+#SB {
+  margin-left: 2.5%;
+  width: 95%;
+  height: 50px;
+  background-color: rgb(19, 231, 37);
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(72, 182, 21);
+  margin-top: 19px;
+}
+#OB {
+  margin-top: 20%;
+  margin-left: 17%;
+  font-size: 50px;
+  width: 66%;
+  height: 80px;
+  background-color: lightgray;
+  box-shadow: 5px 5px 5px #888;
+  font-weight: bolder;
+  border-radius: 6px;
+  display: block;
+  border-color: black;
+  border: 5px;
+  border-style: solid;
+}
+#mf {
+  font-weight: bolder;
+}
+#as {
+  box-shadow: 5px 5px 5px #888;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  position: static;
+  width: 500px;
+  height: 70px;
+  background-color: rgb(218, 218, 218);
+  border: solid 3px black;
+  border-radius: 6px;
+}
+#d2 {
+  display: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+}
+#TB {
+
+  width: 28%;
+
+  height: 60px;
+  background-color: rgb(19, 231, 37);
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(72, 182, 21);
+  margin-top: 19px;
+}
+#RB {
+  width: 28%;
+  height: 60px;
+  background-color: rgb(151, 56, 56);
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgb(151, 56, 56);
+  margin-top: 19px;
+}
+#Livesdiv {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 90%;
+  margin-bottom: 50%;
+}
+#blives {
+  font-size: 30px;
+  margin-bottom: -5px;
+}
+
+@media (max-width: 480px) {
+  #RB {
+    margin-left: -10px;
+    margin-top: 0px;
+  }
+  #Myform {
+    margin-left: 10px;
+    width: 360px;
+    height: 500px;
+  }
+  #d2 {
+    height: 500px;
+    width: auto;
+  }
+  #as {
+    margin-bottom: 0px;
+    margin-top: 1px;
+    width: 150px;
+  }
+  #TB {
+    width: 100px;
+  }
+  #Livesdiv {
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+}

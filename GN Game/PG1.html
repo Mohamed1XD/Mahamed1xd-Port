@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="PG1.css" />
+  </head>
+  <body>
+    <div id="Myform">
+      <div id="mf">
+        <form>
+          <label for="MIN">Put Min Number</label>
+          <br />
+          <input type="number" name="MIN" id="MIN" /> <br />
+          <label for="MAX">Put MAX Number</label> <br />
+          <input type="number" name="MAX" id="MAX" /> <br />
+          <input type="button" value="Start" id="SB" onclick="rnd()" /> <br />
+          <input type="button" value="Close" id="CB" onclick="closefd()" />
+          <br />
+        </form>
+      </div>
+      <div id="d2">
+        <!--  guees numbeer div -->
+        <p id="PAS">Put Here Your Number</p>
+        <input type="number" name="AS" id="as" placeholder="Geuss Here" />
+        <input type="button" value="Try Number" id="TB" onclick="ans()" />
+        <br />
+        <div id="Livesdiv">
+          <b id="bLives"></b>
+          <p id="paraLives">Lives</p>
+        </div>
+        <input type="button" value="Close" id="RB" onclick="cform()" /> <br />
+      </div>
+    </div>
+    <br />
+    <input type="button" id="OB" onclick="openf()" value="Play" />
+  </body>
+  <script src="PG1.js" async defer></script>
+</html>
